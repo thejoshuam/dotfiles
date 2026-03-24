@@ -1,0 +1,16 @@
+TTTTTTTTTTTTTTTTTTTTTTT       CCCCCCCCCCCCC       CCCCCCCCCCCCC
+T:::::::::::::::::::::T    CCC::::::::::::C    CCC::::::::::::C
+T:::::::::::::::::::::T  CC:::::::::::::::C  CC:::::::::::::::C
+T:::::TT:::::::TT:::::T C:::::CCCCCCCC::::C C:::::CCCCCCCC::::C
+TTTTTT  T:::::T  TTTTTTC:::::C       CCCCCCC:::::C       CCCCCC
+        T:::::T       C:::::C             C:::::C              
+        T:::::T       C:::::C             C:::::C              
+        T:::::T       C:::::C             C:::::C              
+        T:::::T       C:::::C             C:::::C              
+        T:::::T       C:::::C             C:::::C              
+        T:::::T       C:::::C             C:::::C              
+        T:::::T        C:::::C       CCCCCCC:::::C       CCCCCC
+      TT:::::::TT       C:::::CCCCCCCC::::C C:::::CCCCCCCC::::C
+      T:::::::::T        CC:::::::::::::::C  CC:::::::::::::::C
+      T:::::::::T          CCC::::::::::::C    CCC::::::::::::C
+      TTTTTTTTTTT             CCCCCCCCCCCCC       CCCCCCCCCCCCC

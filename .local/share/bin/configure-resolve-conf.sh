@@ -1,6 +1,5 @@
 #!/bin/sh
-#!/bin/sh
-# Dash-compatible script to prompt for a domain and replace the line starting with "#Domains=" in ~/resolveconf
+# Dash-compatible script to prompt domain and set `Domains=ad.my.domain.tld in systemd-resolved
 # Creates a backup at ~/resolveconf.bak if not present.
 
 CONF="/etc/systemd/resolved.conf"
@@ -21,7 +20,7 @@ fi
 
 # Create backup if not already present
 if [ ! -f "$BACKUP" ]; then
-  cp "$CONF" "$BACKUP" || { printf "Failed to create backup.\n" >&2; exit 1; }
+  sudo cp "$CONF" "$BACKUP" || { printf "Failed to create backup.\n" >&2; exit 1; }
 fi
 
 # Use awk to replace a line that begins (possibly after spaces) with "#Domains=" within [Resolve] section
@@ -70,3 +69,6 @@ fi
 printf "Unexpected error (rc=%s).\n" "$RC" >&2
 rm -f "${CONF}.tmp"
 exit 1
+
+
+sudo systemctl restart systemd-resolved

@@ -29,4 +29,4 @@ sudo pacman -Syu
 # # Cleanup phase
 sudo pacman -Rnu chromium
 
-sh .local/share/bin/configure-resolve-conf.sh # within git root
+sh .local/share/bin/configure-resolve-cfg.sh # within git root

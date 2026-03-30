@@ -16,9 +16,9 @@ sudo pacman -S --noconfirm gimp caligula
 
 
 # Most essential AUR applications
-yay -Sua brave-bin ente-auth-bin
+yay -Sua --needed brave-bin ente-auth-bin
 # Less essential AUR applications
-yay -Sua ascii-image-converter beeper-v4-bin freetube-bin librewolf-bin
+yay -Sua --needed ascii-image-converter beeper-v4-bin freetube-bin librewolf-bin
 
 
 # # Misc

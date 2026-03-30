@@ -1,24 +1,28 @@
 {
 	"name": "Vimium C",
-	"@time": "3/24/2026, 3:20:07 AM",
-	"time": 1774336807025,
+	"@time": "3/30/2026, 3:24:21 PM",
+	"time": 1774846461692,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "linux",
-		"chromium": 145
+		"chromium": 146
 	},
+	"allBrowserUrls": true,
 	"exclusionRules": [
 		{
-			"passKeys": "",
-			"pattern": ":https://mail.google.com/"
-		},
-		{
-			"passKeys": "<f9> ",
+			"passKeys": "<del> <f9> e ",
 			"pattern": ":https://outlook.office.com/"
 		}
 	],
 	"grabBackFocus": true,
 	"keyLayout": 2,
+	"keyMappings": [
+		"#!no-check",
+		"mapkey <c-[> <esc>",
+		"mapkey <c-y> <cr>",
+		"map go scrollToTop",
+		""
+	],
 	"linkHintCharacters": "arstd3cv,xneiohf",
 	"newTabUrl": "pages/blank.html",
 	"userDefinedCss": [

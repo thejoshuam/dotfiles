@@ -1,7 +1,7 @@
 {
 	"name": "Vimium C",
-	"@time": "3/30/2026, 3:24:21 PM",
-	"time": 1774846461692,
+	"@time": "4/2/2026, 11:19:16 AM",
+	"time": 1775090956199,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "linux",
@@ -10,7 +10,7 @@
 	"allBrowserUrls": true,
 	"exclusionRules": [
 		{
-			"passKeys": "<del> <f9> e ",
+			"passKeys": "<c-z> <del> <f9> <m-bs> ? e ",
 			"pattern": ":https://outlook.office.com/"
 		}
 	],

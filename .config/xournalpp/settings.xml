@@ -5,7 +5,7 @@
   <property name="minimumPressure" value="0.05"/>
   <property name="pressureMultiplier" value="1"/>
   <property name="zoomGesturesEnabled" value="true"/>
-  <property name="selectedToolbar" value="Toolbar Right Copy"/>
+  <property name="selectedToolbar" value="Toolbar Right Copy Copy"/>
   <property name="lastSavePath" value="/home/joshuamiller/Documents/personal"/>
   <property name="lastOpenPath" value=""/>
   <property name="lastImagePath" value="/home/dhh/Dropbox/Images"/>
@@ -19,7 +19,7 @@
   <property name="maximized" value="true"/>
   <property name="showToolbar" value="true"/>
   <property name="showSidebar" value="true"/>
-  <property name="sidebarWidth" value="265"/>
+  <property name="sidebarWidth" value="151"/>
   <property name="sidebarNumberingStyle" value="1"/>
   <property name="sidebarOnRight" value="false"/>
   <property name="scrollbarOnLeft" value="false"/>
@@ -205,33 +205,18 @@
     </data>
   </data>
   <data name="tools">
-    <attribute name="current" type="string" value="text"/>
-    <data name="drawArrow">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="drawCoordinateSystem">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="drawDoubleArrow">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="drawEllipse">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="drawRect">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="drawSpline">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
+    <attribute name="current" type="string" value="pen"/>
+    <data name="drawArrow"/>
+    <data name="drawCoordinateSystem"/>
+    <data name="drawDoubleArrow"/>
+    <data name="drawEllipse"/>
+    <data name="drawRect"/>
+    <data name="drawSpline"/>
     <data name="eraser">
-      <attribute name="drawingType" type="string" value="default"/>
-      <attribute name="size" type="string" value="MEDIUM"/>
-      <attribute name="type" type="string" value="default"/>
+      <attribute name="size" type="string" value="VERY_FINE"/>
+      <attribute name="type" type="string" value="deleteStroke"/>
     </data>
-    <data name="hand">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
+    <data name="hand"/>
     <data name="highlighter">
       <attribute name="color" type="hex" value="ffffff00"/>
       <attribute name="drawingType" type="string" value="default"/>
@@ -239,55 +224,40 @@
       <attribute name="fillAlpha" type="int" value="128"/>
       <attribute name="size" type="string" value="MEDIUM"/>
     </data>
-    <data name="image">
-      <attribute name="drawingType" type="string" value="default"/>
+    <data name="image"/>
+    <data name="laserPointerHighlighter">
+      <attribute name="color" type="hex" value="ffff0000"/>
+      <attribute name="size" type="string" value="MEDIUM"/>
     </data>
-    <data name="laserPointerHighlighter"/>
-    <data name="laserPointerPen"/>
+    <data name="laserPointerPen">
+      <attribute name="color" type="hex" value="ffff0000"/>
+      <attribute name="size" type="string" value="MEDIUM"/>
+    </data>
     <data name="pen">
-      <attribute name="color" type="hex" value="ff3333cc"/>
+      <attribute name="color" type="hex" value="ff000000"/>
       <attribute name="drawingType" type="string" value="default"/>
       <attribute name="fill" type="int" value="0"/>
       <attribute name="fillAlpha" type="int" value="128"/>
-      <attribute name="size" type="string" value="MEDIUM"/>
+      <attribute name="size" type="string" value="THIN"/>
       <attribute name="style" type="string" value="plain"/>
     </data>
-    <data name="playObject">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="selectMultiLayerRect">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="selectMultiLayerRegion">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="selectObject">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
+    <data name="playObject"/>
+    <data name="selectMultiLayerRect"/>
+    <data name="selectMultiLayerRegion"/>
+    <data name="selectObject"/>
     <data name="selectPdfTextLinear">
       <attribute name="color" type="hex" value="ff000000"/>
-      <attribute name="drawingType" type="string" value="default"/>
     </data>
     <data name="selectPdfTextRect">
       <attribute name="color" type="hex" value="ff000000"/>
-      <attribute name="drawingType" type="string" value="default"/>
     </data>
-    <data name="selectRect">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="selectRegion">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
-    <data name="showFloatingToolbox">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
+    <data name="selectRect"/>
+    <data name="selectRegion"/>
+    <data name="showFloatingToolbox"/>
     <data name="text">
       <attribute name="color" type="hex" value="ff000000"/>
-      <attribute name="drawingType" type="string" value="default"/>
     </data>
-    <data name="verticalSpace">
-      <attribute name="drawingType" type="string" value="default"/>
-    </data>
+    <data name="verticalSpace"/>
   </data>
   <data name="touch">
     <attribute name="cmdDisable" type="string" value=""/>

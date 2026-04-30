@@ -4,7 +4,7 @@ sudo pacman -S --noconfirm dnsutils keyd freerdp remmina dash ydotool qt6-tools
 
 # Active Directory & other super useful utilities
 sudo pacman -S --noconfirm imv bc samba smbclient
-sudo pacman -S --noconfirm bind
+sudo pacman -S --noconfirm bind wipe
 
 # sudo cp <path> /etc/systemd/resolved.conf # within git root
 # sudo systemctl restart systemd-resolved

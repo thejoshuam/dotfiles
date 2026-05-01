@@ -25,3 +25,5 @@ alias feh='echo im-Vee for im-Gee! ; imv'
 alias fastfetch='fastfetch --logo Calculate'
 alias 'start-omarchy-windows-vm'='omarchy-windows-vm start --keep-alive'
 # alias -g 'omarchy-windows-vm'='omarchy-windows-vm start --keep-alive'
+
+export PATH=$PATH:$HOME/.local/share/bin

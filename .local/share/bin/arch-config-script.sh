@@ -27,10 +27,18 @@ sudo pacman -S --noconfirm gamemode
 sudo pacman -S --noconfirm flatpak
 sudo pacman -Syu
 
+mkdir -p $HOME/.local/share/bin
+mkdir -p $HOME/.local/bin
+touch . "$HOME/.local/share/../bin/env"
+
 # Enable services
-sudo systemctl enable keyd
+sudo systemctl enable --now keyd
 
 # # Cleanup phase
-sudo pacman -Rnu chromium --noconfirm
+printf '%s\n' "Attempting to run extra scripts..."
+sleep 2
+printf '%s\n' "..."
+sleep 1
+omarchy-remove-dev-env-noargs
 
 sh .local/share/bin/configure-resolve-cfg.sh # within git root

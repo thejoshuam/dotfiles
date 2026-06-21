@@ -1,17 +1,37 @@
 {
 	"name": "Vimium C",
-	"@time": "4/2/2026, 11:19:16 AM",
-	"time": 1775090956199,
+	"@time": "6/15/2026, 12:29:56 PM",
+	"time": 1781492396658,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "linux",
-		"chromium": 146
+		"chromium": 149
 	},
 	"allBrowserUrls": true,
 	"exclusionRules": [
 		{
 			"passKeys": "<c-z> <del> <f9> <m-bs> ? e ",
 			"pattern": ":https://outlook.office.com/"
+		},
+		{
+			"passKeys": "<f2> R r ",
+			"pattern": ":https://auc-excel.officeapps.live.com/"
+		},
+		{
+			"passKeys": "",
+			"pattern": "^https?://127\\.0\\.0\\.1:8006/"
+		},
+		{
+			"passKeys": "R b o r ",
+			"pattern": ":https://teams.cloud.microsoft/"
+		},
+		{
+			"passKeys": "R p r ",
+			"pattern": ":https://discord.com/"
+		},
+		{
+			"passKeys": "R p r v ",
+			"pattern": ":https://helpdesk.tcc.sa.edu.au/"
 		}
 	],
 	"grabBackFocus": true,
@@ -19,11 +39,20 @@
 	"keyMappings": [
 		"#!no-check",
 		"mapkey <c-[> <esc>",
-		"mapkey <c-y> <cr>",
+		"#mapkey <c-y> <cr>",
 		"map go scrollToTop",
+		"unmap 0",
+		"map 0p togglePinTab",
+		"map 0P togglePinTab",
+		"# map pp togglePinTab",
+		"mapkey <left> <right>",
+		"# mapkey <right> <right>",
+		"mapkey <down> <right>",
+		"mapkey <up> <right>",
+		"mapkey <c-y> <tab>",
 		""
 	],
-	"linkHintCharacters": "arstd3cv,xneiohf",
+	"linkHintCharacters": "kmjstd3cv,xneioharflu.;",
 	"newTabUrl": "pages/blank.html",
 	"userDefinedCss": [
 		"/* #ui */",

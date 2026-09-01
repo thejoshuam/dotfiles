@@ -1,11 +1,11 @@
 {
 	"name": "Vimium C",
-	"@time": "6/15/2026, 12:29:56 PM",
-	"time": 1781492396658,
+	"@time": "9/1/2026, 3:54:49 PM",
+	"time": 1788243889468,
 	"environment": {
 		"extension": "2.12.2",
 		"platform": "linux",
-		"chromium": 149
+		"chromium": 151
 	},
 	"allBrowserUrls": true,
 	"exclusionRules": [
@@ -45,14 +45,10 @@
 		"map 0p togglePinTab",
 		"map 0P togglePinTab",
 		"# map pp togglePinTab",
-		"mapkey <left> <right>",
-		"# mapkey <right> <right>",
-		"mapkey <down> <right>",
-		"mapkey <up> <right>",
 		"mapkey <c-y> <tab>",
 		""
 	],
-	"linkHintCharacters": "kmjstd3cv,xneioharflu.;",
+	"linkHintCharacters": "arstpwfgqdzxcvb34",
 	"newTabUrl": "pages/blank.html",
 	"userDefinedCss": [
 		"/* #ui */",
@@ -63,10 +59,10 @@
 		"",
 		"/* #omni */",
 		"#bar {",
-		"    background-color: #ffffff !important;",
+		"    background-color: #ad8ee6 !important;",
 		"    border: 0;",
 		"    border-radius: 4px;",
-		"    opacity: 0.3;",
+		"    opacity: 1;",
 		"    color: #000000 !important;",
 		"}",
 		"",
@@ -79,7 +75,7 @@
 		"",
 		"/* #ui */",
 		"#find {",
-		"    background-color: #000000 !important;",
+		"    background-color: #ad8ee6 !important;",
 		"    border: 1;",
 		"    border-radius: 0px;",
 		"    color: #ADADAD !important;",
@@ -89,7 +85,7 @@
 		".LH {",
 		"    border: 1px;",
 		"    background-image: none !important;",
-		"    background-color: #ECECEC !important;",
+		"    background-color: #bb9af7 !important;",
 		"    border-radius: 5px;",
 		"    color: #000000;",
 		"}",

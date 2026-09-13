@@ -24,8 +24,8 @@ yay -Sua --needed --noconfirm ddcui
 
 # # Misc
 sudo pacman -S --noconfirm gamemode
-sudo pacman -S --noconfirm flatpak
-sudo pacman -Syu
+# sudo pacman -S --noconfirm flatpak
+# sudo pacman -Syu
 
 mkdir -p $HOME/.local/share/bin
 mkdir -p $HOME/.local/bin
@@ -39,6 +39,6 @@ printf '%s\n' "Attempting to run extra scripts..."
 sleep 2
 printf '%s\n' "..."
 sleep 1
-omarchy-remove-dev-env-noargs
+# omarchy-remove-dev-env-noargs
 
 sh .local/share/bin/configure-resolve-cfg.sh # within git root

@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
+# -- Setup KeyringUnlock Script (claude haiku(Medium), USER01) v0.1
+# -- "Keyring script with prompts"
+# -- Built from Omarchy-4.0 post-install script
+#
 # setup-keyring-unlock.sh
 #
 # Standalone scriptlet extracted from the Omarchy 4.0 post-install script.
